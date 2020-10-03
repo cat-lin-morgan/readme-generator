@@ -33,12 +33,13 @@ ${generateDescription(data.description)}
 * [Usage](#usage)
 * [Credits](#credits)
 * [License](#license)
+___
 
 ## Installation 
 
 ${data.installation}
 
-## How to Use This Application 
+## Usage
 
 ${data.usage}
 
@@ -59,7 +60,7 @@ ${data.tests}
 ## How You Can Reach Me
 
 If you'd like to ask further questions you can reach me via [GitHub](https://github.com/${data.github}/) or email me at ${data.email}!`;
-
+___
 };
 
 module.exports = generateMarkdown;

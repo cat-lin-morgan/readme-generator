@@ -10,12 +10,13 @@ fgdgfd
 * [Usage](#usage)
 * [Credits](#credits)
 * [License](#license)
+___
 
 ## Installation 
 
 gfdg
 
-## How to Use This Application 
+## Usage
 
 gdfg
 
@@ -38,3 +39,4 @@ gfdgdf
 ## How You Can Reach Me
 
 If you'd like to ask further questions you can reach me via [GitHub](https://github.com/gfdgdf/) or email me at gfdg!
+___
