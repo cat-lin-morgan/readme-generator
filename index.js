@@ -54,7 +54,7 @@ const readmeQuestions = () => {
         {
             type: 'input',
             name: 'usage',
-            message: 'Explain to other devlopers how to use your application!',
+            message: 'Explain to other developers how to use your application!',
             validate: (usageInput) => {
                 if (usageInput) {
                     return true;
@@ -137,20 +137,28 @@ const readmeQuestions = () => {
             }
         }
     ])
-    .then()
 };
 
 readmeQuestions()
+    .then(readmeAnswers => {
+        return generateReadme(readmeAnswers);
+    })
+    .then(pageMarkdown => {
+        return writeFile(pageMarkdown88)
+    })
+    .catch(err => {
+        console.log(err);
+    })
 
-// // function to write README file
-// function writeToFile(fileName, data) {
+// function to write README file
+function writeToFile(fileName, data) {
 
-// }
+}
 
-// // function to initialize program
-// function init() {
+// function to initialize program
+function init() {
 
-// }
+}
 
-// // function call to initialize program
-// init();
+// function call to initialize program
+init();
