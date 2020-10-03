@@ -65,6 +65,19 @@ const readmeQuestions = () => {
             },
         },
         {
+            type: 'input',
+            name: 'credits',
+            message: 'Tell other developers who or what resources contributed to your code!',
+            validate: (usageInput) => {
+                if (usageInput) {
+                    return true;
+                } else {
+                    console.log('You must give credit where credit is due!');
+                    return false;
+                }
+            },
+        },
+        {
             type: 'confirm',
             name: 'confirmLicense',
             message: 'Would you like to add a license?',
@@ -139,26 +152,15 @@ const readmeQuestions = () => {
     ])
 };
 
+// function to initialize program
 readmeQuestions()
     .then(readmeAnswers => {
+        console.log('these are the', readmeAnswers)
         return generateReadme(readmeAnswers);
     })
-    .then(pageMarkdown => {
-        return writeFile(pageMarkdown88)
+    .then(pageMarkdown => { // function to write README file
+        return writeFile(pageMarkdown)
     })
     .catch(err => {
         console.log(err);
     })
-
-// function to write README file
-function writeToFile(fileName, data) {
-
-}
-
-// function to initialize program
-function init() {
-
-}
-
-// function call to initialize program
-init();
