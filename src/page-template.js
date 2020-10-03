@@ -16,7 +16,7 @@ const generateLicense = (license) => {
     }
     return `
 ## License
-![little badge](https://img.shields.io/badge/license-${license}-success.svg)`
+![screenshot of badge](https://img.shields.io/static/v1?label=license&message=${license}&color=important)`
 };
 
 
