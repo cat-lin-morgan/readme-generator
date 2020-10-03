@@ -1,5 +1,7 @@
 //some global variables
 const inquirer = require('inquirer');
+const generateReadme = require('./src/page-template.js');
+const writeFile = require('./utils/generateMarkdown.js');
 
 
 // array of questions for user
@@ -39,12 +41,12 @@ const readmeQuestions = () => {
         {
             type: 'input',
             name: 'installation',
-            message: 'Tell other developers how to run your code.',
+            message: 'Tell other developers how to install your code.',
             validate: (installInput) => {
                 if (installInput) {
                     return true;
                 } else {
-                    console.log('You must explain how to run your code!');
+                    console.log('You must explain how to install your code!');
                     return false;
                 }
             },
@@ -132,12 +134,13 @@ const readmeQuestions = () => {
                     console.log('Nope! You gotta tell us your email address!');
                     return false;
                 }
-            },
+            }
         }
-    ]);
+    ])
+    .then()
 };
 
-
+readmeQuestions()
 
 // // function to write README file
 // function writeToFile(fileName, data) {

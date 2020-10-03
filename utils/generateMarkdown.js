@@ -1,12 +1,19 @@
-//generate the description here
+//global
+const fs = require('fs');
 
-//generate the license here
+const writeFile = (fileContent) => {
+    return new Promise((resolve, reject) => {
+        fs.writeFile('./dist/README.md', fileContent, err => {
+            if (err) {
+                reject(err);
+                return;
+            }
+            resolve({
+                ok: true,
+                message: 'File hast done been created.'
+            });
+        });
+    });
+};
 
-// function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
-
-`;
-}
-
-module.exports = generateMarkdown;
+module.exports = writeFile;
