@@ -16,7 +16,8 @@ const generateLicense = (license) => {
     }
     return `
 ## License
-![screenshot of badge](https://img.shields.io/static/v1?label=license&message=${license}&color=important)`
+
+[![screenshot of badge](https://img.shields.io/static/v1?label=license&message=${license}&color=important)](https://opensource.org/licenses/${license})`
 };
 
 
