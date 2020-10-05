@@ -58,7 +58,9 @@ If you'd like to ask further questions you can reach me via [GitHub](https://git
 ## Video Walk-Thru and Screenshots
 
 #### Video Walk-thru
-<iframe src="https://drive.google.com/file/d/15rRuavutwF-W-ujjjMWMEkmaiwdeEWRs/preview" width="640" height="480"></iframe>
+
+[Click here to view my walk-thru of the README generator.](https://drive.google.com/file/d/15rRuavutwF-W-ujjjMWMEkmaiwdeEWRs/view?usp=sharing "README Generator")
+
 
 #### Screenshots
 <img src='' alt='Screenshot of the generated README, active on Github.'/>
