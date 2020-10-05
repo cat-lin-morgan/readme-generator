@@ -6,6 +6,12 @@ ___
 
 This project was to write code for a READEME generator using Node.js, the npm Inquirer and some rough Markdown knowledge. 
 
+**Extra:** I decided to give the user the option to choose whether they give a description and choose whether they wanted a license. Mostly to test myself, but also why not. :shrug: 
+
+The license is also clickable, it'll take the user to the legalese on the chosen license. My interpretation of the license notice. It links to the opensource.org website.
+
+**Other:** :left_speech_bubble: I also moved around where the license goes after filming the walkthru and rearranged the Table of Contents on the template. 
+
 
 ![love badge](https://img.shields.io/badge/Made%20w%2F-100%25%20%E2%9D%A4-ff69b4)
 ![javascript badge](https://img.shields.io/badge/We%20Stan-Javascript-brightgreen)
@@ -65,5 +71,7 @@ If you'd like to ask further questions you can reach me via [GitHub](https://git
 
 #### Screenshot
 <img src='./assets/images/readmescreenshot.png' alt='Screenshot of the generated README, active on Github.'/>
+
+**Thank you**
 
 ___
