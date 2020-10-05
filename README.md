@@ -31,7 +31,7 @@ You should also have Node installed to your machine and the Inquirer npm.
 
 ## Usage
 
-Once you have the above all done, you can open up the folder in your code editor of choice, mine is VS Code, and then summon node, with the stroke of node, in your terminal followed immediable by index, like such :
+Once you have the above all done, you can open up the folder in your code editor of choice, mine is VS Code, and then summon node in your terminal followed immediately by index, like such :
 
 ``` node index```
 
