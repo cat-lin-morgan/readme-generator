@@ -73,6 +73,6 @@ If you'd like to ask further questions you can reach me via [GitHub](https://git
 <img src='./assets/images/readmescreenshot.png' alt='Screenshot of the generated README, active on Github.'/>
 
 
-__Thank you__
+___Thank you___
 
 ___
