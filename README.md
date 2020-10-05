@@ -1,3 +1,5 @@
+___
+
 # Professional README Generator
 
 ## Description
@@ -5,8 +7,8 @@
 This project was to write code for a READEME generator using Node.js, the npm Inquirer and some rough Markdown knowledge. 
 
 
-![screenshot of badge](https://img.shields.io/badge/Made%20w%2F-100%25%20%E2%9D%A4-ff69b4)
-![screenshot of badge](https://img.shields.io/badge/We%20Stan-Javascript-brightgreen)
+![love badge](https://img.shields.io/badge/Made%20w%2F-100%25%20%E2%9D%A4-ff69b4)
+![javascript badge](https://img.shields.io/badge/We%20Stan-Javascript-brightgreen)
 
 
 ## Table of Contents 
@@ -15,12 +17,11 @@ This project was to write code for a READEME generator using Node.js, the npm In
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
-___
 
 
 ## License
 
-[![screenshot of badge](https://img.shields.io/static/v1?label=license&message=GPL-2.0&color=important)](https://opensource.org/licenses/GPL-2.0)
+[![license badge](https://img.shields.io/static/v1?label=license&message=GPL-2.0&color=important)](https://opensource.org/licenses/GPL-2.0)
 
 ## Installation 
 
@@ -55,12 +56,14 @@ BREAK IT, I dare you.
 
 If you'd like to ask further questions you can reach me via [GitHub](https://github.com/cat-lin-morgan/) or email me at plummorgan@gmail.com!
 
-## Video Walk-Thru and Screenshots
+## Video Walk-Thru and Screenshot
 
 #### Video Walk-thru
 
 [Click here to view my walk-thru of the README generator.](https://drive.google.com/file/d/15rRuavutwF-W-ujjjMWMEkmaiwdeEWRs/view?usp=sharing "README Generator")
 
 
-#### Screenshots
-<img src='' alt='Screenshot of the generated README, active on Github.'/>
+#### Screenshot
+<img src='./assets/images/readmescreenshot.png' alt='Screenshot of the generated README, active on Github.'/>
+
+___

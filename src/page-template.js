@@ -17,7 +17,7 @@ const generateLicense = (license) => {
     return `
 ## License
 
-[![screenshot of badge](https://img.shields.io/static/v1?label=license&message=${license}&color=important)](https://opensource.org/licenses/${license})`
+[![license badge](https://img.shields.io/static/v1?label=license&message=${license}&color=important)](https://opensource.org/licenses/${license})`
 };
 
 
@@ -34,7 +34,7 @@ ${generateDescription(data.description)}
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
-___
+
 
 ${generateLicense(data.license)}
 
@@ -50,7 +50,6 @@ ${data.usage}
 
 ${data.credits}
 
-
 ## How You Can Contribute
 
 ${data.contribution}
@@ -62,7 +61,6 @@ ${data.tests}
 ## How You Can Reach Me
 
 If you'd like to ask further questions you can reach me via [GitHub](https://github.com/${data.github}/) or email me at ${data.email}!`;
-___
 };
 
 module.exports = generateMarkdown;
