@@ -30,11 +30,13 @@ ${generateDescription(data.description)}
 
 ## Table of Contents 
 
+* [License](#license)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
-* [License](#license)
 ___
+
+${generateLicense(data.license)}
 
 ## Installation 
 
@@ -48,7 +50,6 @@ ${data.usage}
 
 ${data.credits}
 
-${generateLicense(data.license)}
 
 ## How You Can Contribute
 
