@@ -1,8 +1,8 @@
-# Code Quiz
+# Team Profile Generator
 
 ## Description
 
-This was a quoding challenge in which I wrote a game quiz using vanilla javascript to make a Quiz that prompted me with javascript questions.
+This was a team profile generator using Node, NPM Inquirer, Javascript, and Jest for testing.
 
 ## Table of Contents 
 
@@ -10,25 +10,24 @@ This was a quoding challenge in which I wrote a game quiz using vanilla javascri
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
-___
+
 
 
 ## License
 
-[![screenshot of badge](https://img.shields.io/static/v1?label=license&message=GPL-2.0&color=important)](https://opensource.org/licenses/GPL-2.0)
+[![license badge](https://img.shields.io/static/v1?label=license&message=BSD-2-Clause&color=important)](https://opensource.org/licenses/BSD-2-Clause)
 
 ## Installation 
 
-Star it, fork it, and then clone it to your machine!
+You'll need to install Node to your machine and then install inquirer and jest if you want to test.
 
 ## Usage
 
-Click the activated webpage to try my quiz.
+Invoke the application with ``node Index.js``
 
 ## Credits
 
-The TAs, my tutor, my bestfriend and my boyfriend (both programmers) helped me with when I had questions.
-
+I got help from the TAs and my tutor.
 
 ## How You Can Contribute
 
@@ -36,7 +35,7 @@ If you find issues open up an issues on the original repo!
 
 ## How You Can Test My Application
 
-BREAK IT
+BREAK IT, I dare you.
 
 ## How You Can Reach Me
 
